@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "hardhat/console.sol";
 
 
-contract DeadlyToken is ERC20("Deadly Token", "DT"), ERC20Burnable, Ownable(msg.sender) {
+contract DeganToken is ERC20("Degan Token", "DT"), ERC20Burnable, Ownable(msg.sender) {
     string[4] public ItemForSale = ["1. Yellow Shirt","2. M416 Skin","3. Shotgun Skin","4. Legendery Marrine Outfint"]; 
     string[] public MyInvetory;
     
