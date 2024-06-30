@@ -33,7 +33,7 @@ To use this smart contract, you need to have the following:
 
 3. **Copy the Contract Code:**
    Copy and paste the following Solidity code into the `MyToken.sol` file:
-   ```
+```
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
@@ -93,7 +93,7 @@ contract DeadlyToken is ERC20("Deadly Token", "DT"), ERC20Burnable, Ownable(msg.
     }
 }
 
-   ```
+ ```
 
 ## Compile the Contract
 
