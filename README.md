@@ -1,10 +1,10 @@
-# Deadly Token (DT) ERC20 Token Deployment Using Avalanche
+# Degan Token (DT) ERC20 Token Deployment Using Avalanche
 
-This Solidity Smart Contract, DeadlyToken, is a blockchain-based application designed to provide a secure and transparent way for users to manage their ERC20 tokens, mint new tokens, burn tokens, transfer tokens, and interact with an in-game inventory system. This README provides an overview of the contract's functionalities and instructions for setting up and using the contract.
+This Solidity Smart Contract, DeganToken, is a blockchain-based application designed to provide a secure and transparent way for users to manage their ERC20 tokens, mint new tokens, burn tokens, transfer tokens, and interact with an in-game inventory system. This README provides an overview of the contract's functionalities and instructions for setting up and using the contract.
 
 ## Description
 
-The `MyToken` Solidity Smart Contract serves as the backbone of a decentralized application (dApp) that allows users to interact with Ethereum blockchain features. It includes the following key functionalities:The DeadlyToken Solidity Smart Contract serves as the backbone of a decentralized application (dApp) that allows users to interact with blockchain features on the Avalanche network. It includes the following key functionalities:
+The `MyToken` Solidity Smart Contract serves as the backbone of a decentralized application (dApp) that allows users to interact with Ethereum blockchain features. It includes the following key functionalities:The DeganToken Solidity Smart Contract serves as the backbone of a decentralized application (dApp) that allows users to interact with blockchain features on the Avalanche network. It includes the following key functionalities:
 
 * **Mint Tokens:** The contract owner can mint new tokens.
 * **Burn Tokens:** Users can burn their tokens, reducing the total supply.
@@ -42,7 +42,7 @@ import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "hardhat/console.sol";
 
-contract DeadlyToken is ERC20("Deadly Token", "DT"), ERC20Burnable, Ownable(msg.sender) {
+contract DeganToken is ERC20("Degan Token", "DT"), ERC20Burnable, Ownable(msg.sender) {
     string[4] public ItemForSale = ["1. Yellow Shirt","2. M416 Skin","3. Shotgun Skin","4. Legendary Marine Outfit"]; 
     string[] public MyInventory;
     
